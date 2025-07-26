@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instagram</title>
+  <link rel="shortcut icon" href="./public/icon.webp" type="image/x-icon">
+  <link rel="stylesheet" href="./src/google.css">
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+  <main class="main">
+    <header class="header">
+      <div class="img-box">
+        <div class="img">
+          <img src="./public/circle.gif" alt="">
+        </div>
+      </div>
+      <div class="info-box">
+        <div class="buts">
+          <button class="info-button">Following</button>
+          <button class="info-button">Message</button>
+          <button class="info-button add">
+            <span class="material-symbols-outlined">
+              person_add
+            </span>
+          </button>
+          <button class="info-button pas">
+            <span class="material-symbols-outlined">
+              Atr
+            </span>
+          </button>
+        </div>
+        <div class="status">
+          <p> posts</p>
+          <p> followers</p>
+          <p> following</p>
+        </div>
+        <div class="links"></div>
+      </div>
+    </header>
+    <section class="media">
+      <div class="row">
+        <div class="sequence active">
+          <button class="filterer">
+            <span class="material-symbols-outlined">
+              background_dot_small
+            </span>
+          </button>
+        </div>
+        <div class="sequence">
+          <button class="filterer">
+            <span class="material-symbols-outlined">
+              movie
+            </span>
+          </button>
+        </div>
+        <div class="sequence">
+          <button class="filterer">
+            <span class="material-symbols-outlined">
+              assignment_ind
+            </span>
+          </button>
+        </div>
+      </div>
+      <div class="videos"></div>
+    </section>
+  </main>
+
+  <script src="src/main.js"></script>
+</body>
+
+</html>
