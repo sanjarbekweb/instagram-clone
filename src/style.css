@@ -12,6 +12,7 @@ body {
   background: var(--bg-color);
   font-family: "Poppins";
   color: white;
+  min-width: 576px !important;
 }
 
 * {
@@ -94,7 +95,7 @@ body {
   background-color: transparent;
 }
 .main .header .info-box .status {
-  width: 400px;
+  width: 350px;
   display: flex;
   justify-content: space-between;
   font-size: 16px;
