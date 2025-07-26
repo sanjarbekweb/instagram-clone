@@ -81,7 +81,7 @@ linksof.append(threatName)
 
 
 
-for (vid of videossnew) {
+for (const vid of videossnew) {
 
     const box = document.createElement("div")
     box.className = "box"
