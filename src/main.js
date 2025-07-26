@@ -29,7 +29,7 @@ const user = {
 }
 
 const videos = document.querySelector(".videos")
-const videoss = user.videoss
+const videossnew = user.videoss
 
 const imgBox = document.querySelector(".img")
 const imgself = document.querySelector(".img img")
@@ -81,7 +81,7 @@ linksof.append(threatName)
 
 
 
-for (vid of videoss) {
+for (vid of videossnew) {
 
     const box = document.createElement("div")
     box.className = "box"
