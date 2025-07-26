@@ -12,7 +12,7 @@ body {
     background: var(--bg-color);
     font-family: "Poppins";
     color: white;
-    min-width: 576px;
+    min-width: 576px !important;
 }
 
 * {
