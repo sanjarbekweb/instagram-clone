@@ -36,7 +36,7 @@ const imgself = document.querySelector(".img img")
 
 const imgfor = new Image()
 
-imgfor.src = `./public/hero.jpg`
+imgfor.src = `/hero.jpg`
 imgfor.onload = () => {
     imgself.remove()
     imgBox.appendChild(imgfor)
