@@ -86,7 +86,7 @@ for (vid of videoss) {
     const box = document.createElement("div")
     box.className = "box"
     const actimg = document.createElement("img")
-    // actimg.src = `https://placehold.co/400x800`
+    actimg.src = `https://placehold.co/400x800`
     actimg.src = `./public/ik.gif`
 
     const overlay = document.createElement("div")
