@@ -82,11 +82,11 @@ linksof.append(threatName)
 
 
 for (const vid of videossnew) {
-
     const box = document.createElement("div")
     box.className = "box"
-    const actimg = document.createElement("img")
-    actimg.src = `https://placehold.co/400x800`
+    const actimg = document.createElement("div")
+    actimg.className = "loader"
+    // actimg.src = `https://placehold.co/400x800`
 
     const overlay = document.createElement("div")
     overlay.className = "overlay"
@@ -128,8 +128,16 @@ for (const vid of videossnew) {
 
 }
 
-const togg = document.querySelector(".add")
 
-togg.addEventListener('click', () => {
+const mainn = document.querySelector(".main")
+
+const loadMore = document.createElement("button")
+loadMore.className = "loadButton"
+loadMore.textContent = "Load More"
+mainn.appendChild(loadMore)
+const themer = document.querySelector("#themer")
+
+themer.addEventListener('click', () => {
     document.documentElement.classList.toggle("dark-theme")
+    document.querySelector(".themer").classList.toggle("night")
 })
