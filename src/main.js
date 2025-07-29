@@ -58,7 +58,7 @@ statuss_p.forEach((e, i) => {
     const postsNum = document.createElement("b")
     postsNum.textContent = valuesArray[i + 1]
     if (valuesArray[i + 1] > 1000) {
-        postsNum.textContent = Number((valuesArray[i + 1] / 1000).toFixed(1))
+        postsNum.textContent = `${Number((valuesArray[i + 1] / 1000).toFixed(1))}M`
     }
     e.prepend(postsNum)
 })
